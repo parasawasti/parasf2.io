@@ -1,0 +1,100 @@
+*{
+    
+    margin: 0px 0px;
+}
+
+table, th, td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    width: 100vw;
+    
+  }
+
+button{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(20, 31, 3);
+    width: auto;
+    height: 20px;
+    padding-left: 10px;
+    color: white;
+    background-color: black;   
+}
+
+.search{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(146, 140, 140);
+    height: 10px;    
+}
+
+.search input{
+    width: 92vw;
+    height: 15px;
+}
+
+.buttons{
+    display: flex;
+  
+    justify-content: space-between;
+    height: 25px;
+    padding: 8px 10px;
+    background-color: rgb(146, 140, 140);
+}
+
+.table-data{
+    display: flex;
+    width: auto;
+}
+
+table{
+    width: 100vw;
+    background-color: floralwhite;
+    color: black;
+    
+}
+
+td{
+    text-align: left;
+    padding-left: 5px;
+    width: 100px;
+}
+
+th{
+    text-align: left;
+    padding-left: 5px;
+    width: 16vw;
+    color: darkslategrey;
+}
+
+.id{
+    width: 100px;
+}
+
+.name{
+    width: 50px;
+}
+
+.gender{
+    width: 40px;
+}
+
+.class, .marks, .passing{
+    width: 20px;
+}
+
+.email{
+    width: 100px;
+}
